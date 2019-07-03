@@ -1,26 +1,38 @@
 <html>
-    <div style="background-color: black;">
-<h1 style="font-size: 90px; color: #a4a;">Story</h1>
-<h2 style="color: white;">Familie</h2>
-<ul>
-<li style="background-color: black; color: red;">Matheus</li>
-<li style="color: orange;">Malene</li>
-<li style="color: yellow;">Mamma</li>
-<li style="color: green;">Pappa</li>
-</ul>
-<h2 style="color: white;">HEST</h2>
-<ul>
-<li style="color: blue;">INDI</li>
-<li style="color: #ad3dad;">SPIRA</li>
-<li style="color: #ff80ea;">KIA</li>
-<li style="color: red;">STORY</li>
-<li style="color: orange;">LUNAR</li>
-<li style="color: yellow;">TORDENSKJOLD</li>
-<li style="color: green;">BALADE</li>
-<li style="color: blue;">ELIAS</li>
-<li style="color: #ad3dad;">ANASTASIA</li>
-<li style="color: #ff80ea;">PIA</li>
-</ul>
-<div style="color: white;">35 + 55 <input type="text" /> <input type="button" onclick="alert('What');" value="svar" /></div>
+    <head>
+        <script type="text/javascript">
+            function pluss12(){
+                var tall = parseInt(document.getElementById("tall1").value);
+                alert(tall + 12);
+            }
+        </script>
+    </head>
+<div style="background-color: black;">
+	<h1 style="font-size: 90px; color: #a4a;">Story</h1>
+	<h2 style="color: white;">Familie</h2>
+	<ul>
+		<li style="background-color: black; color: red;">Matheus</li>
+		<li style="color: orange;">Malene</li>
+		<li style="color: yellow;">Mamma</li>
+		<li style="color: green;">Pappa</li>
+	</ul>
+	<h2 style="color: white;">HEST</h2>
+	<ul>
+		<li style="color: blue;">INDI</li>
+		<li style="color: #ad3dad;">SPIRA</li>
+		<li style="color: #ff80ea;">KIA</li>
+		<li style="color: red;">STORY</li>
+		<li style="color: orange;">LUNAR</li>
+		<li style="color: yellow;">TORDENSKJOLD</li>
+		<li style="color: green;">BALADE</li>
+		<li style="color: blue;">ELIAS</li>
+		<li style="color: #ad3dad;">ANASTASIA</li>
+		<li style="color: #ff80ea;">PIA</li>
+	</ul>
+	<div style="color: white;">35 + 55
+        <input type="text" id="tall1" />
+        <input type="button" onclick="alert('What');" value="svar" />
+        <input type="button" onclick="pluss12();" value="pluss 12" />
+    </div>
 </div>
 </html>
