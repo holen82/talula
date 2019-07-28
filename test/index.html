@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function pluss12(){
+                var tall = parseInt(document.getElementById("tall1").value);
+                alert(tall + 12);
+            }
+            function trykk(verdi){
+                document.getElementById("regnestykke").value = verdi;
+            }
+        </script>
+        <style>
+            .knapp{
+                background-color: grey;
+                width: 20px;
+                text-align: center;
+                display: inline;
+                padding: 10px;
+                border: 1px;
+                border-style: inset;
+                cursor: pointer;
+            }
+            .knapperad{
+                height: 40px;
+            }
+        </style>
+    </head>
+<div style="background-color: black;">
+	<h1 style="font-size: 90px; color: #a4a;">Kalkulator</h1>
+    <div class="knapperad">
+        <div class="knapp" onclick="trykk('1');">
+            1
+        </div>
+        <div class="knapp">
+            2
+        </div>
+        <div class="knapp">
+            3
+        </div>
+    </div>
+    <input type="text" id="regnestykke" />
+	<div style="color: white;">35 + 55
+        <input type="text" id="tall1" />
+        <input type="button" onclick="alert('😎😎😎😎😍😍😍😍😍😍😍😍😍');" value="svar" />
+        <input type="button" onclick="pluss12();" value="pluss 12" />
+    </div>
+</div>
+</html>
